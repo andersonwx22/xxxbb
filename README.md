@@ -24,7 +24,7 @@ namespace teste
 
         private void VerificarAtualizacao()
         {
-            string currentVersion = "0000xx0000"; // Versão atual do seu programa
+            string currentVersion = "0000xx0011"; // Versão atual do seu programa
             string latestVersion = GetLatestVersionFromGitHub(); // Obtém a versão mais recente do GitHub
 
             if (latestVersion != currentVersion)
