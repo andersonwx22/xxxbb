@@ -29,7 +29,7 @@ namespace teste
 
             if (latestVersion != currentVersion)
             {
-                DialogResult result = MessageBox.Show("Há uma nova versão disponível. Deseja atualizar?", "Atualização Disponível", MessageBoxButtons.YesNo);
+                DialogResult result = MessageBox.Show("Há uma eeeeeeeeeee. Deseja atualizar?", "Atualização Disponível", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
                     DownloadAndInstallUpdate();
